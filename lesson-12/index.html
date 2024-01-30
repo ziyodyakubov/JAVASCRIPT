@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form{
+            border-radius: 10px;
+            margin: 320px auto;
+            padding: 30px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        label{
+            cursor: pointer;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input{
+            border-radius: 10px;
+            outline:none;
+            width: 70%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.512);
+        }
+
+        button{
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Username</label>
+        <input type="text" id="name" placeholder="Enter your username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter your password">
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <!-- <label for="surname">Surname</label>
+        <input type="text" id="surname" placeholder="Enter your surname">
+
+        <label for="number">Phone number</label>
+        <input type="number" id="number" placeholder="Enter your phone number">
+
+        <label for="date">Birthday</label>
+        <input type="date" id="date" placeholder="Enter your birthday"> -->
+    </form>
+</body>
+</html>
